@@ -12,6 +12,6 @@ public class JenkinsController {
 
     @RequestMapping("jenkins1")
     public String hello1() {
-        return "Hello Jenkins!~111111成狗了 1112222~~111~";
+        return "Hello !~111111成狗了 1112222~~111~";
     }
 }
