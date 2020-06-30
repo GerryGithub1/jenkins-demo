@@ -9,4 +9,9 @@ public class JenkinsController {
     public String hello() {
         return "Hello Jenkins!";
     }
+
+    @RequestMapping("jenkins1")
+    public String hello1() {
+        return "Hello Jenkins!~~~~";
+    }
 }
